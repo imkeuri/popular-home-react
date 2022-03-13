@@ -1,0 +1,19 @@
+#servicios-cliente .servicios-cliente{
+    display: flex;
+    justify-content: center;
+}
+
+#servicios-cliente .servicio-cliente{
+    width: 100%;
+    text-align: center;
+}
+
+#servicios-cliente .title-servicios{
+    color: #000;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 70px 0;
+    font-family: roboto;
+    text-transform: none;
+    font-size: 2.5rem;
+}

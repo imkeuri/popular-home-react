@@ -1,0 +1,127 @@
+#podcast {
+    padding: 3rem;
+}
+
+#podcast .popular-talk-icon {
+    width: 40px;
+}
+
+
+#podcast .card{
+    width: 95%;
+    cursor: pointer;
+}
+
+#podcast .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+#podcast .card-title{
+    font-size: 17px;
+    float: left;
+}
+
+#podcast .card-title:hover{
+    color: #ed8b00 !important;
+}
+
+#podcast .card-text{
+    float: left;
+    text-align: left;
+}
+
+
+#podcast .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#podcast .icon-share{
+    color: #ed8b00;
+    float: right !important;
+    padding-top: 12%;
+}
+
+#podcast .icon-play{
+    color: rgba(255, 255, 255, 0.503);
+    font-size: 3rem;
+}
+
+#podcast .icon-play:hover{
+    color: #ed8b00;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.icon-share:hover{
+    color: #00c1d5 !important;
+}
+ 
+.time {
+    color: white;
+    background: #00c1d5 !important;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#podcast .cont-time-2 {
+    position: absolute;
+    z-index: 1;
+    width: 95%;
+    padding: 7px 0px;
+}
+
+
+
+@media only screen and (max-width: 375px){
+    #podcast .card{
+        width:  18rem !important;
+    }
+
+    #podcast .card-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #podcast .card-text{
+        padding-top: 6%;
+    }
+
+    #podcast .display{
+        display: none;
+    }
+    #podcast .icon-play{
+        
+        font-size: 2rem;
+    }
+    #podcast .video{
+        margin-top: 0% !important;
+    }
+    
+}
+
+#podcast .saber-mas{
+    float: right;
+    color: #00c1d5;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#podcast .saber-mas:hover{
+    color: #ed8b00;
+}
+
+#podcast .ver-mas{
+    text-decoration: none;
+    color: #00c1d5;
+    font-weight: 600;
+}
+
+#podcast .ver-mas:hover{
+    text-decoration: none;
+    color: #ed8b00;
+}

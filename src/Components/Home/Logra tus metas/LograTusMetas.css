@@ -1,0 +1,61 @@
+.panel-logra-tus-metas{
+    margin-top: 7% !important;
+}
+
+#logra-tus-metas .card-img-top{
+    width: 40px;
+    margin-top: 1rem;
+
+}
+
+#logra-tus-metas .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem ;
+    border: none;
+   
+}
+
+ .img-boottom{
+    width: 100px !important;
+}
+
+
+
+#logra-tus-metas 
+.card-title,
+.card-text{
+    text-align: center;
+    flex-grow: 1;
+}
+
+#logra-tus-metas a{
+    text-align: center !important;
+    cursor: pointer;
+    
+}
+
+#logra-tus-metas a:hover{
+    color: #af5b00 !important;
+    
+}
+
+#logra-tus-metas .card-title{
+    color: #012169;
+}
+
+#logra-tus-metas a{
+    text-decoration: none;
+    color: #00c1d5 !important;
+    font-weight: 500;
+}
+
+.card-wrapper-principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

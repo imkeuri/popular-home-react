@@ -1,0 +1,120 @@
+#navbar{
+    justify-content: center;
+}
+
+.top-navbar {
+    background: linear-gradient(45deg, #012169 0, #00709e 60%, #00c1d5 100%) !important;
+    color: white !important;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-inferior{
+    background-color: rgb(255, 255, 255) !important;
+    justify-content: space-between;
+}
+
+.navItem{
+    height: 100% !important;
+    color: white !important;
+}
+
+ .navbar-toggler{
+    color: white !important;
+}
+
+
+.navItem:hover{
+    color: #012169 !important;
+    background-color: white !important;
+}
+
+
+
+.nav-item-inferior{
+    color:#012169 !important;
+}
+
+.nav-item-especial{
+    color: #00c1d5;
+}
+
+#navbar .button{
+    
+        background-color: #003b7a !important;
+        color: #fff !important;
+        border-radius: 4px !important;
+        border: none !important;
+        padding: 8px 20px !important;
+        outline: 0 !important;
+        position: relative !important;
+        z-index: 2 !important;
+        font-weight: 500 !important;
+        font-size: 1rem !important;
+        font-family: roboto !important;
+    
+}
+
+/* .navbar-collapse .collapse{
+    background-color: black !important;
+}
+
+.nav-item {
+    padding: 3px;
+    padding-right: 1em;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.nav-cont-middle {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #ffff;
+}
+
+.nav-item-middle {
+    padding-right: 1em;
+    color: #00709E;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #003b7a;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 20px;
+    outline: 0;
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: roboto;
+}
+
+#main-bar{
+    position: absolute;
+    width: 100%;
+    top: 6%;
+    position: fixed;
+    z-index: 1;
+}
+
+#main-bar .nav-item{
+    margin-left: 10px;
+    font-size: 17px;
+    justify-content: center !important;
+    color: #003b7a;
+}
+
+
+nav{
+    justify-content: center !important;
+} */

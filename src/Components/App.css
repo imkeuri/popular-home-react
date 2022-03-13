@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+  body, html {
+      font-family: 'Roboto', sans-serif;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+  }
+
+.btn-chat  {
+    top: 80%;
+    right: 3%;
+    float: right important;
+    position: fixed!important;
+    width: 70px!important;
+    height: 70px!important;
+    color: #fff!important;
+    text-align: center!important;
+    font-size: 12px!important;
+    font-weight: 700!important;
+     padding-top: 46px!important; 
+    background-image: url(../Resources/chat-en-linea.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: center 10px!important;
+    text-transform: uppercase!important;
+    background-size: 58% auto!important;
+    -webkit-border-radius: 50%!important;
+    -ms-border-radius: 50%!important;
+    -mz-border-radius: 50%!important;
+    -o-border-radius: 50%!important;
+    border-radius: 50%!important;
+    background-color: rgba(0,185,207,1)!important;
+    cursor: pointer!important;
+    z-index: 5!important;
+    -webkit-transition: all .2s ease-in-out!important;
+    -mz-transition: all .2s ease-in-out!important;
+    -ms-transition: all .2s ease-in-out!important;
+    -o-transition: all .2s ease-in-out!important;
+    transition: all .2s ease-in-out!important;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3)!important;
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3)!important;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3)!important;
+}
