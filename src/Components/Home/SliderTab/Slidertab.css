@@ -1,3 +1,71 @@
 #slider-tab a{
     color: #00C1D5;
+    text-decoration: none;
+}
+
+#slider-tab img{
+    width: 100%;
+    height:550px;
+    object-fit: cover;
+}
+
+#slider-tab .slider-tab-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    top: 6rem;
+    color: white;
+    border-color: black;
+    max-width: 30% !important;
+    padding-left: 2rem !important;
+    font-style:italic;
+    text-shadow: 0.1px 0.1px 0.1px #000 !important;
+    font-weight: bold;
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+
+#slider-tab a.btn{
+    background: #ed8b00;
+    color: #fff;
+    border-radius: 30px;
+    padding: 22px 40px;
+    display: inline-block !important;
+    font-size: 16px;
+    line-height: 1;
+    font-family: roboto !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#slider-tab .icon{
+    width: 50px;
+    height: 50px;
+    color: #00C1D5;
+}
+
+#slider-tab  .icon:hover{
+    color: #012169;
+}
+
+#slider-tab .wrapper-icon{
+ display: flex;
+  justify-content: center;
+  align-items: center;   
+  text-align: center;
+}
+
+#slider-tab h3{
+    color: #00C1D5;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+
+@media only screen and (max-width:375px){
+    #slider-tab{
+        display: none;
+    }
 }
