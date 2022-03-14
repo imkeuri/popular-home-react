@@ -79,7 +79,7 @@ export default function SalaPrensa() {
                     </Row>
                 </Col>
                           
-                <a className='ver-mas-noticias mt-5'><FontAwesomeIcon icon={faAngleRight}/>Ver más noticias</a>
+                <a href='sala-prensa' className='ver-mas-noticias mt-5'><FontAwesomeIcon icon={faAngleRight}/>Ver más noticias</a>
             </Row>
         </Container>
     )

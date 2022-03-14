@@ -31,15 +31,15 @@ export default function LograTusMetas() {
 
                         <ul className='p-0'>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Ahorrar para mi futuro</a>
+                                <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Ahorrar para mi futuro</a>
 
                             </li>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Manejo y control de mi dinero</a>
+                                <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Manejo y control de mi dinero</a>
 
                             </li>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Rapidez y seguridad al comprar</a>
+                                <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Rapidez y seguridad al comprar</a>
 
                             </li>
                         </ul>
@@ -57,70 +57,70 @@ export default function LograTusMetas() {
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>TARJETAS</Card.Title>
                                             <Card.Text className='text-muted'>Encuentra tu tarjeta de credito ideal y solicitala aqui</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card>
-                                        <Card.Img variant='top' src={BookOpen} />
+                                        <Card.Img variant='top' src={BookOpen} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>CLIENTES</Card.Title>
                                             <Card.Text className='text-muted'>Garantiza tu futuro a traves de la cuenta ideal para que realices ahorros y transacciones bancarias.</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img variant='top' src={PiedPaper} />
+                                        <Card.Img variant='top' src={PiedPaper} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>PLAN UNICO</Card.Title>
                                             <Card.Text className='text-muted'>Ahorra hasta un 20% en comisiones y obten tasas de interes preferenciales al combinar tus productos en nuestros Planes Unicos.</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img className='img-boottom' variant='top' src={masterCard} />
+                                        <Card.Img className='img-boottom' variant='top' src={masterCard} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>Tarjeta #ORBITPOPULAR</Card.Title>
                                             <Card.Text className='text-muted'>
                                                 Aprovechas las nuevas ofertas de los #7DiasConOrbit!
                                                 Al pagar con tu #Orbit popular podras disfrutar combos
                                                 especiales y precios exclusivos.
-                                                Si no la tienes, solicitala <a>aqui</a>
+                                                Si no la tienes, solicitala  <a href='javascript:void(0)'>aqui</a>
                                             </Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img className='img-boottom' variant='top' src={cuentaLibre} />
+                                        <Card.Img className='img-boottom' variant='top' src={cuentaLibre} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>CUENTA DIGITAL LIBRE</Card.Title>
                                             <Card.Text className='text-muted'>!Libre de comisiones al realizar todas las
-                                                transacciones bancarias a traves de nuestros <a>canales electronicos:</a> Internet
+                                                transacciones bancarias a traves de nuestros  <a href='javascript:void(0)'>canales electronicos:</a> Internet
                                                 Banking, App Popular, tPago y Cajeros Automaticos
                                             </Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card>
-                                        <Card.Img className='img-boottom' variant='top' src={gridRight} />
+                                        <Card.Img className='img-boottom' variant='top' src={gridRight} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title style={{ color: '#00c1d5 !important' }}>PLAN UNICO GOLD</Card.Title>
                                             <Card.Text className='text-muted'>¡Empieza a ahorrar ahora mismo! Pide tu Plan Único Gold en cualquiera de nuestras sucursales.</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -144,15 +144,15 @@ export default function LograTusMetas() {
 
                         <ul className='p-0'>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Ahorrar para mi futuro</a>
+                                <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Ahorrar para mi futuro</a>
 
                             </li>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Manejo y control de mi dinero</a>
+                                <a href="javascript:void(0)"><FontAwesomeIcon icon={faAngleRight} />Manejo y control de mi dinero</a>
 
                             </li>
                             <li>
-                                <a><FontAwesomeIcon icon={faAngleRight} />Rapidez y seguridad al comprar</a>
+                                <a href="javascript:void(0)"><FontAwesomeIcon icon={faAngleRight} />Rapidez y seguridad al comprar</a>
 
                             </li>
                         </ul>
@@ -166,32 +166,32 @@ export default function LograTusMetas() {
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img variant='top' src={prestamos} />
+                                        <Card.Img variant='top' src={prestamos} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>PRESTAMOS PERSONALES</Card.Title>
                                             <Card.Text className='text-muted'>Cuenta con nosotros si estas buscando remodelar tu casa, irte de viaje o incluso consolidar tus deudas</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card>
-                                        <Card.Img variant='top' src={deposito} />
+                                        <Card.Img variant='top' src={deposito} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>CERTIFICADOS DE DEPOSITO</Card.Title>
                                             <Card.Text className='text-muted'>Los Certificados de Depositos Popular, en pesos, en dolares o euros, te brindan mas seguridad y tasa mas competitivas.</Card.Text>
-                                            <a><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
+                                            <a href='javascript:void(0)'><FontAwesomeIcon icon={faAngleRight} />Conocer más</a>
                                         </Card.Body>
                                     </Card>
                                 </Col>
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img variant='top' src={proteccion} />
+                                        <Card.Img variant='top' src={proteccion} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>PROTECCION COMPLETA</Card.Title>
-                                            <Card.Text className='text-muted'>Te brindamos toda la proteccion que necesitas con una gama de seguros que velan por tu tranquilidad.F</Card.Text>
+                                            <Card.Text className='text-muted'>Te brindamos toda la proteccion que necesitas con una gama de seguros que velan por tu tranquilidad.</Card.Text>
                                         </Card.Body>
                                     </Card>
                                 </Col>

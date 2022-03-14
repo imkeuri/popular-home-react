@@ -18,7 +18,7 @@ export default function ComunicateConNosotros() {
 
                 <Row className='medios-comunicacion'>
                     <Col className='medio-comunicacion' lg={4} md={4} sm={4} xs={4}>
-                        <a>
+                        <a href='#comunicate-con-nosotros'> 
                             <span>
                                 <FontAwesomeIcon className='font-awesome-icon' icon={faEnvelope} />
                             </span>
@@ -26,7 +26,7 @@ export default function ComunicateConNosotros() {
                         </a>
                     </Col>
                     <Col className='medio-comunicacion' lg={4} md={4} sm={4} xs={4}>
-                        <a>
+                        <a href='#comunicate-con-nosotros'>
                             <span>
                                 <FontAwesomeIcon className='font-awesome-icon' icon={faComment} />
                             </span>
@@ -34,7 +34,7 @@ export default function ComunicateConNosotros() {
                         </a>
                     </Col>
                     <Col className='medio-comunicacion' lg={4} md={4} sm={4} xs={4}>
-                        <a>
+                        <a href='#comunicate-con-nosotros'>
                             <span>
                                 <FontAwesomeIcon className='font-awesome-icon' icon={faPhone} />
                             </span>

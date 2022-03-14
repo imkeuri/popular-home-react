@@ -33,16 +33,16 @@ export default function Footer() {
                         </span>
                         <Row className='logo'>
                             <Col>
-                                <a href='#'>
+                                <a href='#footer'>
                                     <img src={SelloOro} alt='' />
                                 </a>
-                                <a  href='#'>
+                                <a  href='#footer'>
                                     <img src={SelloDigital} alt='' />
                                 </a>
-                                <a  href='#'>
+                                <a  href='#footer'>
                                     <img src={SeloOrganizacion} alt='' />
                                 </a>
-                                <a  href='#'>
+                                <a  href='#footer'>
                                     <img src={SignatoryStamp} alt='' />
                                 </a>
                             </Col>
@@ -54,67 +54,67 @@ export default function Footer() {
                         <p className='title-footer-section'>Banco Popular</p>
                         <ul>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Sala de prensa</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Sala de prensa</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />El Blog del Popular</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />El Blog del Popular</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Publicaciones Institucionales</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Publicaciones Institucionales</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Beneficios Popular</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Beneficios Popular</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Turnos y citas</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Turnos y citas</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Mi idea Popular</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Mi idea Popular</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Banco Popular en 2020</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Banco Popular en 2020</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Academia Finanzas con proposito</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Academia Finanzas con proposito</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Sala de prensa</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Sala de prensa</a>
                             </li>
                         </ul>
                         <p className='title-footer-section'>Entidades relacionas</p>
                         <ul>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />Grupo Popular</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />Grupo Popular</a>
                             </li>
                             <li>
-                                <a  href='#'><FontAwesomeIcon icon={faAngleRight} />AFP Popular</a>
+                                <a  href='#footer'><FontAwesomeIcon icon={faAngleRight} />AFP Popular</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Inversiones Popular</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Inversiones Popular</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />AFI Popular</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />AFI Popular</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Fiduciaria Popular</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Fiduciaria Popular</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Popular Bank, LTD</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Popular Bank, LTD</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Servicios Digitales Popular - AZUL</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Servicios Digitales Popular - AZUL</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />AVANCE</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />AVANCE</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Infocentro</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Infocentro</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />ABRE - Gestion de Bienes</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />ABRE - Gestion de Bienes</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Fundacion Popular</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Fundacion Popular</a>
                             </li>
                         </ul>
                     </Col>
@@ -122,40 +122,40 @@ export default function Footer() {
                         <p className='title-footer-section'>Informaciones</p>
                         <ul>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Tarifario de servicios</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Tarifario de servicios</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Tarifario de servicios a partir del 31 de marzo 2022</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Tarifario de servicios a partir del 31 de marzo 2022</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Proteccion al usuario</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Proteccion al usuario</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Reclamaciones</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Reclamaciones</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Convenio de productos y servicios</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Convenio de productos y servicios</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Pistas de seguridad</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Pistas de seguridad</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />FATCA</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />FATCA</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Prevencion de lavado de activos</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Prevencion de lavado de activos</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Tutoriales Banca Digital</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Tutoriales Banca Digital</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Requerimientos para vinculacion</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Requerimientos para vinculacion</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Transferencias Internaciones</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Transferencias Internaciones</a>
                             </li>
                             <li>
-                                <a href='#'><FontAwesomeIcon icon={faAngleRight} />Solicitud valores depositantes fallecidos</a>
+                                <a href='#footer'><FontAwesomeIcon icon={faAngleRight} />Solicitud valores depositantes fallecidos</a>
                             </li>
                         </ul>
 
@@ -166,9 +166,9 @@ export default function Footer() {
                         Banco Popular Dominicano, S.A - Banco Mútiple
                     </span>
                     <div>
-                        <a>Aviso legal y condiciones de uso |</a>
-                        <a>Políticas de privacidad y seguridad |</a>
-                        <a>Política de Cookies</a>
+                        <a  href='#footer'>Aviso legal y condiciones de uso |</a>
+                        <a  href='#footer'> Políticas de privacidad y seguridad |</a>
+                        <a  href='#footer'>Política de Cookies</a>
                     </div>
                 </Row>
             </Container>

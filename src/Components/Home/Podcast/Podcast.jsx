@@ -74,7 +74,7 @@ export default function Podcast() {
                                     </Row>
                                 </Card>
                             </Col>
-                            <a className="ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
+                            <a href='#podcast' className="ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
                         </Row>
 
 
@@ -147,7 +147,7 @@ export default function Podcast() {
                                     </Card.ImgOverlay>
                                 </Card>
                             </Col>
-                            <a className="link_bpd ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
+                            <a href='#podcast' className="link_bpd ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
                         </Row>
 
 
@@ -158,7 +158,7 @@ export default function Podcast() {
                         <Row>
                             <Col lg={12} md={12} sm={12} xs={12}>
                                 <h2>
-                                    <img className='popular-talk-icon' src={BlogIcon} />
+                                    <img className='popular-talk-icon' src={BlogIcon} alt=''/>
                                     El Blog del Populalr
                                 </h2>
                             </Col>
@@ -216,7 +216,7 @@ export default function Podcast() {
                                 </Card>
                             </Col>
                         </Row>
-                        <a className=" ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
+                        <a href='#podcast' className=" ver-mas ms-2" title="Ver más" ><FontAwesomeIcon icon={faAngleRight} /> Ver más</a><br />
                     </Col>
                 </Row>
             </Container>

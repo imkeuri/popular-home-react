@@ -24,7 +24,7 @@ export default function Slidertab() {
                 <Row className='m-2'>
                     <Col lg={4} md={4} sm={4} xs={4}>
                         <h1 style={{ fontSize: '35px' }}>La banca digital te lo facilita todo</h1>
-                        <a className='link'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a>
+                        <a  href='https://popular-home.azurewebsites.net' className='link'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a>
                     </Col>
                     <Col lg={8} md={8} sm={8} xs={8}>
 
@@ -69,14 +69,14 @@ export default function Slidertab() {
                             }}>
                                 <SplideSlide id='InternetBanking' className='tab'>
                                     <Container fluid>
-                                        <img src={internetBaking} />
+                                        <img src={internetBaking} alt=''/>
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>INTERNET BANKING</h2>
                                                 <p>Te facilitamos la vida con nuestro canal electronico, para que
                                                     realiaces tus transacciones bancarias en linea en todo momento.
                                                 </p>
-                                                <a className='btn'>Conocer más</a>
+                                                <a href='https://popular-home.azurewebsites.net' className='btn'>Conocer más</a>
                                             </Col>
                                         </Row>
                                     </Container>
@@ -86,13 +86,13 @@ export default function Slidertab() {
 
                                 <SplideSlide id='AppPopular' className='tab'>
                                     <Container fluid>
-                                        <img src={appPopular} />
+                                        <img src={appPopular} alt=''/>
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>APP POPULAR</h2>
                                                 <p>Realiza tus operaciones desde cualquier telefono inteligente, de forma fácil y segura.</p>
-                                                <a><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
-                                                <a className='btn'>Conocer más</a>
+                                                  <a href='#internetBaking'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
+                                                <a href='https://popular-home.azurewebsites.net' className='btn'>Conocer más</a>
                                             </Col>
                                         </Row>
                                     </Container>
@@ -102,14 +102,14 @@ export default function Slidertab() {
 
                                 <SplideSlide id='Tpago' className='tab'>
                                     <Container fluid>
-                                        <img src={tpago} />
+                                        <img src={tpago} alt=''/>
 
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>TPAGO</h2>
                                                 <p>No necesitas minutos ni internet para disponer de esta solucion simple que te permite pagar, comprar y enviar dinero desde tu celular.</p>
-                                                <a><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
-                                                <a className='btn' style={{ backgroundColor: '#9d1d96' }}>Conocer más</a>
+                                                  <a href='#internetBaking'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
+                                                <a href='https://popular-home.azurewebsites.net' className='btn' style={{ backgroundColor: '#9d1d96' }}>Conocer más</a>
                                             </Col>
                                         </Row>
                                     </Container>
@@ -119,12 +119,12 @@ export default function Slidertab() {
 
                                 <SplideSlide id='TelebancoPopular' className='tab'>
                                     <Container fluid>
-                                        <img src={teleBanco} />
+                                        <img src={teleBanco} alt=''/>
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>TELEBANCO POPULAR</h2>
                                                 <p>Disfruta de la nueva experiencia de navegacion de Telebanco Popular, tú cedula es tu acceso a todos productos.</p>
-                                                <a className='btn'>Conocer más</a>
+                                                <a href='https://popular-home.azurewebsites.net' className='btn'>Conocer más</a>
                                             </Col>
                                         </Row>
 
@@ -135,13 +135,13 @@ export default function Slidertab() {
 
                                 <SplideSlide id='CajerosAutomatico' className='tab'>
                                     <Container fluid>
-                                        <img src={cajeros} />
+                                        <img src={cajeros} alt=''/>
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>CAJEROS AUTOMATICOS</h2>
                                                 <p>Nuestra flotilla de maquinas te permite ahorrar tiempo, depositar efectivo en linea y disponer de los recursos depositados al instante.</p>
-                                                <a><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
-                                                <a className='btn'>Conocer más</a>
+                                                  <a href='#internetBaking'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
+                                                <a href='https://popular-home.azurewebsites.net' className='btn'>Conocer más</a>
                                             </Col>
                                         </Row>
                                     </Container>
@@ -152,13 +152,13 @@ export default function Slidertab() {
 
                                 <SplideSlide id='SubAgente' className='tab'>
                                     <Container>
-                                        <img src={subAgente} />
+                                        <img src={subAgente} alt=''/>
                                         <Row className='slider-tab-content'>
                                             <Col>
                                                 <h2>TU SUBAGENTE POPULAR ES UN<br /> ALIADO EN QUIEN CONFIAR</h2>
                                                 <p>Recibe tus remesas y realiza tus depositos, retiros, compra de recarga y pagos de tarjetas, prestamos y servicios en un Subagente Popular al lado de ti.</p>
-                                                <a><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
-                                                <a className='btn' style={{ backgroundColor: '#00C1D5' }}>Conocer más</a>
+                                                  <a href='#internetBaking'><FontAwesomeIcon icon={faAngleRight} />Ver tutoriales</a><br /><br />
+                                                <a href='#internetBaking' className='btn' style={{ backgroundColor: '#00C1D5' }}>Conocer más</a>
                                             </Col>
                                         </Row>
                                     </Container>
