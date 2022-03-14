@@ -40,7 +40,7 @@ export default function NavBar() {
                                 <Nav.Link className='nav-item-inferior' href="#link">HazteECO</Nav.Link>
                                 <Nav.Link className='' href="#link">
                                     <Button className='button w-100'>
-                                        Acceder.
+                                        Acceder
                                     </Button>
                                 </Nav.Link>
                             </Nav>
