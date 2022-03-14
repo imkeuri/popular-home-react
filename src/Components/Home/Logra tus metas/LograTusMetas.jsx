@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap'
-import { faAngleRight, faBook, faPlane } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight} from '@fortawesome/free-solid-svg-icons'
 import './LograTusMetas.css'
 
 import CreditCard from './Resources/credit-card-regular.svg'
@@ -53,7 +53,7 @@ export default function LograTusMetas() {
 
                                 <Col className=' d-flex align-items-stretch' lg={4} md={4}>
                                     <Card >
-                                        <Card.Img variant='top' src={CreditCard} />
+                                        <Card.Img variant='top' src={CreditCard} alt=''/>
                                         <Card.Body className=' d-flex flex-column'>
                                             <Card.Title>TARJETAS</Card.Title>
                                             <Card.Text className='text-muted'>Encuentra tu tarjeta de credito ideal y solicitala aqui</Card.Text>

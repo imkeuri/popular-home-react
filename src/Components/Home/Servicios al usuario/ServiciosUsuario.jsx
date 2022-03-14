@@ -24,19 +24,19 @@ export default function ServiciosUsuario() {
                         <Row>
                             <Col lg={4} md={4} sm={6} xs={6}>
                                 <span>
-                                    <img src={GestionaTurno} />
+                                    <img src={GestionaTurno} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Gestiona tu turno</h3>
                             </Col>
                             <Col lg={4} md={4} sm={6} xs={6}>
                                 <span>
-                                    <img src={VozCliente} />
+                                    <img src={VozCliente} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Voz del cliente</h3>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <span>
-                                    <img src={Reclamaciones} />
+                                    <img src={Reclamaciones} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Reclamaciones</h3>
                             </Col>
@@ -44,19 +44,19 @@ export default function ServiciosUsuario() {
                         <Row>
                             <Col lg={4} md={4} sm={6} xs={6}>
                                 <span>
-                                    <img src={TarifarioServicios} />
+                                    <img src={TarifarioServicios} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Tarifario de servicios</h3>
                             </Col>
                             <Col lg={4} md={4} sm={6} xs={6}>
                                 <span>
-                                    <img src={BuscadorOficinasCajeros} />
+                                    <img src={BuscadorOficinasCajeros} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Buscador de oficinas, cajeros y subagentes</h3>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
                                 <span>
-                                    <img src={TransferenciasInternacionales} />
+                                    <img src={TransferenciasInternacionales} alt=''/>
                                 </span>
                                 <h3 style={{fontWeight:'300'}}>Transferencias internacionales</h3>
                             </Col>
@@ -70,7 +70,7 @@ export default function ServiciosUsuario() {
                     </Col>
                     <Col className='servicio-cliente'>
                         <span>
-                            <img src={ProteccionUsuario} />
+                            <img src={ProteccionUsuario} alt=''/>
                         </span>
                         <h3 className='pt-5 pb-5' style={{fontWeight:'300'}}>Carta deberes y derechos usuarios</h3>
                     </Col>

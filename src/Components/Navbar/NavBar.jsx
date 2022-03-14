@@ -28,7 +28,7 @@ export default function NavBar() {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="m-auto justify-content-center">
                                 <Navbar.Brand>
-                                    <img src={logo} style={{ height: '50px' }} />
+                                    <img src={logo} style={{ height: '50px' }} alt=''/>
                                 </Navbar.Brand>
                                 <Nav.Link className='nav-item-inferior' href="#home">TARJETAS</Nav.Link>
                                 <Nav.Link className='nav-item-inferior' href="#link">CUENTAS</Nav.Link>

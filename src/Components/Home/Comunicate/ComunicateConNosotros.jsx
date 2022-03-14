@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './ComunicateConNosotros.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment, faEnvelope, faInbox, faMessage, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faComment, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function ComunicateConNosotros() {

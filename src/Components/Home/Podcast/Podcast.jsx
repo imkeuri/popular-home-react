@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Card, Col, Image } from 'react-bootstrap'
+import { Container, Row, Card, Col } from 'react-bootstrap'
 import './Podcast.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShareAlt, faAngleRight, faCirclePlay } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,6 @@ import FenixPerez from './Resources/fenix-perez-pt.jpg'
 import BlogIcon from '../../../Resources/Blog-icon.svg'
 import Articulo from '../../../Resources/Articulo-FCP-mujer.jpg'
 import Progreos from '../../../Resources/claves-venetas.jpg'
-import chatIcon from '../../../Resources/chat-en-linea.png'
 
 export default function Podcast() {
     return (
@@ -25,7 +24,7 @@ export default function Podcast() {
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
                         <h2 className='titulo-principal'>
-                            <img className='popular-talk-icon' src={PopularTalkIcon} />
+                            <img className='popular-talk-icon' src={PopularTalkIcon} alt=''/>
                             Popular Talks
                         </h2>
                     </Col>
@@ -43,7 +42,7 @@ export default function Podcast() {
                                             <div className='cont-time-2'>
                                                 <span className='time'>11:11</span>
                                             </div>
-                                            <Card.Img src={PostKikoCasals} />
+                                            <Card.Img src={PostKikoCasals} alt=''/>
                                         </Col>
                                         <Col lg={8} md={8} sm={8} xs={8}>
                                             <Card.Body>
@@ -63,7 +62,7 @@ export default function Podcast() {
                                             <div className='cont-time-2'>
                                                 <span className='time'>11:11</span>
                                             </div>
-                                            <Card.Img src={KatiFernanfez} />
+                                            <Card.Img src={KatiFernanfez} alt=''/>
                                         </Col>
                                         <Col lg={8} md={8} sm={8} xs={8}>
                                             <Card.Body>
@@ -90,7 +89,7 @@ export default function Podcast() {
                         <Row >
                             <Col className=' d-flex align-items-stretch' lg={6} md={6} sm={12} xs={12}>
                                 <Card className='card-wrapper-video'>
-                                    <Card.Img src={RosarioArostgui} />
+                                    <Card.Img src={RosarioArostgui} alt=''/>
                                     <Card.ImgOverlay>
                                         <Row >
                                             <Col lg={12} md={12} sm={12} xs={12}>
@@ -121,7 +120,7 @@ export default function Podcast() {
 
                             <Col className=' d-flex align-items-stretch' lg={6} md={6} sm={12} xs={12}>
                                 <Card className='display card-wrapper-video'>
-                                    <Card.Img src={FenixPerez} />
+                                    <Card.Img src={FenixPerez} alt=''/>
                                     <Card.ImgOverlay>
                                         <Row >
                                             <Col lg={12} md={12} sm={12} xs={12}>
@@ -168,7 +167,7 @@ export default function Podcast() {
                                     <Row>
                                         <Col className='' lg={5} md={5} sm={5} xs={5}>
 
-                                            <Card.Img src={Articulo} />
+                                            <Card.Img src={Articulo} alt=''/>
 
                                         </Col>
                                         <Col className='d-flex align-items-stretch' lg={7} md={7} sm={7} xs={7}>
@@ -195,7 +194,7 @@ export default function Podcast() {
                                     <Row>
                                         <Col className='' lg={5} md={5} sm={5} xs={5}>
 
-                                            <Card.Img src={Progreos} />
+                                            <Card.Img src={Progreos} alt=''/>
 
                                         </Col>
                                         <Col className='p-0 m-0' lg={7} md={7} sm={7} xs={7}>

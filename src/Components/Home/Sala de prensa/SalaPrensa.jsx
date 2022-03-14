@@ -4,7 +4,6 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShareAlt, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import image1 from './Resources/rollup.jpg'
-import image2 from './Resources/rollup.jpg'
 
 
 

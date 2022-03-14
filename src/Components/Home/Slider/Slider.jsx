@@ -3,8 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/js/splide.cjs'
 import '@splidejs/splide/dist/css/splide.min.css';
 import './Slider.css'
-import logo from '../../../Resources/acuerdo-popular.jpg'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 
 
 import acuerdo from './Resources/acuerdo-microsoft.jpg'
@@ -24,18 +23,18 @@ export default function Slider() {
                    
 
                     <SplideSlide>
-                        <img src={acuerdo} />
+                        <img src={acuerdo} alt=''/>
                         <Container fluid={true}>
                             <div className='content-left'>
                                 <h3 style={{ fontSize: '31px !important', lineWeight: '30px !important' }}>POPULAR Y MICROSOFT IMPULSARAN LA TRANSFORMACION DIGITAL DE LOS CLIENTES PYMES Y EMPRENDEDORES</h3>
                                 <p>La alianza estrategica elevara el liderazgo digital del Popular en el mercado.</p>
-                                <a className='btn-orange'>Conoce mas</a>
+                                <a href='#' className='btn-orange'>Conoce mas</a>
                             </div>
                         </Container>
 
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={banner} />
+                        <img src={banner} alt=''/>
 
                         <Container fluid={true}>
                             <div className='content-left'>
@@ -45,18 +44,18 @@ export default function Slider() {
                                                         o simplemente quédate en casa y relájate. 
                                                         Un lugar que te brinda seguridad, áreas de esparcimiento y libertad.
                                                     </p>
-                                <a className='btn-orange'>Conoce mas</a>
+                                <a href='#' className='btn-orange'>Conoce mas</a>
                             </div>
                         </Container>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={idea} />
+                        <img src={idea} alt=''/>
 
                         <Container fluid={true}>
                             <div className='content-left'>
                                 <h3 style={{ fontSize: '31px !important', lineWeight: '30px !important' }}>MI IDEA POPULAR</h3>
                                 <p>Queremos mejorar contigo, compartanos tus ideas sobre nuestros productos, servicios y canales.</p>
-                                <a className='btn-orange' style={{color: '#fff', }}>Conoce mas</a>
+                                <a href='#' className='btn-orange' style={{color: '#fff', }}>Conoce mas</a>
                             </div>
                         </Container>
                     </SplideSlide>

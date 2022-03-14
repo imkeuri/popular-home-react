@@ -2,7 +2,7 @@ import React from 'react'
 import './NavbarFooter.css'
 import { Container, Navbar, Nav, NavDropdown, Modal, Button, Row, Col, ButtonGroup, ToggleButton, Form } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleInfo, faLocationDot, faExchange, faGear, faMobileAndroid, faAsterisk, faCommentDots, faCalendarTimes, faCalendarXmark, faCalendar } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo, faLocationDot, faExchange, faGear, faMobileAndroid, faAsterisk, faCommentDots, faCalendar} from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 
 
