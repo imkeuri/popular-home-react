@@ -6,15 +6,15 @@ import { faShareAlt, faAngleRight, faCirclePlay } from '@fortawesome/free-solid-
 
 
 
-import PopularTalkIcon from '../../../Resources/Popular-Talk-icon.svg'
-import PostKikoCasals from '../../../Resources/Post-Kiko-Casals--PT-BPD.jpg'
-import KatiFernanfez from '../../../Resources/Post-Kati-Fernández-PT-BPD.jpg'
-import RosarioArostgui from '../../../Resources/Rosario-Arostegui-thumbnail.png'
+import PopularTalkIcon from './Resources/Popular-Talk-icon.svg'
+import PostKikoCasals from './Resources/Post-Kiko-Casals--PT-BPD.jpg'
+import KatiFernanfez from './/Resources/Post-Kati-Fernández-PT-BPD.jpg'
+import RosarioArostgui from './Resources/Rosario-Arostegui-thumbnail.png'
 import FenixPerez from './Resources/fenix-perez-pt.jpg'
 
-import BlogIcon from '../../../Resources/Blog-icon.svg'
-import Articulo from '../../../Resources/Articulo-FCP-mujer.jpg'
-import Progreos from '../../../Resources/claves-venetas.jpg'
+import BlogIcon from './Resources/Blog-icon.svg'
+import Articulo from './Resources/Articulo-FCP-mujer.jpg'
+import Progreos from './Resources/claves-venetas.jpg'
 
 export default function Podcast() {
     return (

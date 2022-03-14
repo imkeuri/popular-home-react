@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4d49bcc5-ea20-4b50-9e17-7ef7fae3dc0b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/popular-replica",
+    "appService.deploySubpath": "build"
+}
